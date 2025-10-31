@@ -1,1 +1,2 @@
 # Modified-Kaprekar-Numbers
+This C# program finds and prints all Kaprekar numbers within a given range `[p, q]`. The `kaprekarNumbers` function squares each number, splits the square into left and right parts based on the number’s length, and checks if their sum equals the original number. If any Kaprekar numbers are found, they are printed; otherwise, it outputs "INVALID RANGE". The `Main` method reads the range from input and calls the function.
